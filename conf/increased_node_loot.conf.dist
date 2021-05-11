@@ -1,0 +1,32 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# Increased Node Loot configuration
+########################################
+#
+#    IncreasedNodeLoot.Enabled
+#        Description: Enable Increased Node Loot
+#        Default:     1 - Enabled
+#                     0 - Disabled
+
+IncreasedNodeLoot.Enabled = 1
+
+#
+#    IncreasedNodeLoot.Announce
+#        Description: Announce that Increased Node Loot is enabled on player login
+#        Default:     1 - Enabled
+#                     0 - Disabled
+
+IncreasedNodeLoot.Announce = 1
+
+#
+#    IncreasedNodeLoot.Multiplier
+#        Description: Multiplier used for increasing node loot
+#        Default:     5
+#
+
+IncreasedNodeLoot.Multiplier = 5
